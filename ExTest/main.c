@@ -26,11 +26,9 @@ int main() {
 	printf("%.1lf-%.1lf = %.1lf\n", 3.4, 1.2, 3.4 - 1.2);
 
 	printf("\n[10진수, 8진수, 16진수]\n");
-	printf("%d\n", 12);
-	printf("%d\n", 014);
-	printf("%d\n", 0xc);
-	printf("%x\n", 12);
-	printf("%X\n", 12);
+	printf("10진수 %d\n", 12);
+	printf("8진수 %o\n", 12);
+	printf("16진수 %x\n", 12);
 
 	printf("\n[지수 형태의 실수 상수]\n");
 	printf("%.1lf\n", 1e6);
