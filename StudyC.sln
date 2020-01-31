@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firstapp", "firstapp\firsta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateTest", "TemplateTest\TemplateTest.vcxproj", "{8790A866-6216-4D4E-B682-B75CDE0DBB1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CH02", "CH02", "{4517152C-C72F-4800-83A8-0F186408D4B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -39,7 +41,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{06EF2AF7-CA28-48EB-B5E4-4B1E23209B75} = {1802B4CE-D919-45FB-A644-15038E3E27E4}
-		{8790A866-6216-4D4E-B682-B75CDE0DBB1B} = {1802B4CE-D919-45FB-A644-15038E3E27E4}
+		{8790A866-6216-4D4E-B682-B75CDE0DBB1B} = {4517152C-C72F-4800-83A8-0F186408D4B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5AD13B2-6E53-4A0A-BF1A-188ED5256EE3}
