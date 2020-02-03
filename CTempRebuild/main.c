@@ -13,8 +13,13 @@
 // 메인함수
 int main(void) 
 {
-	printf("Hello World!\n");
-    // type here.
+	
+    int a = 10, b = 20;
+    int res = 0;
+
+    res = (a > b) ? a : b; // a > b가 참일 때 res에 a를 대입, 거짓일 때 b를 대입 
+    printf("큰 값 : %d\n", res);
+
 	system("pause");
 	return EXIT_SUCCESS;
 }
