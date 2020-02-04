@@ -7,6 +7,8 @@
   writer - Nam Kyung Jin
 */
 
+void swap(int* pa, int* pb);
+
 #include <stdio.h>
 #include <stdlib.h>
 
