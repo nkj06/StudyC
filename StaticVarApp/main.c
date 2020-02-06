@@ -35,7 +35,7 @@ int main(void)
 	return EXIT_SUCCESS;
 }
 
-void auto_func(void)
+void auto_func(void) // 일반 지역 변수는 사용하고 값이 사라짐
 {
     auto int a = 0;
 
@@ -45,8 +45,8 @@ void auto_func(void)
 
 void static_func(void)
 {
-    static int a;
+    static int a; // 정적 지역 변수는 프로그램이 끝날때 까지 살아있음
 
     a++;
     printf("%d\n", a);
-}
+} 
