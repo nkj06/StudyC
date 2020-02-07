@@ -41,3 +41,5 @@ void print_str(char** pps, int cnt)
         printf("%s\n", pps[i]);
     }
 }
+
+// 포인터를 사용할때 &달고 출력하면 주소를 알려주고, 그냥 쓰면 그 주소가 가지고 있는 값을 출력
