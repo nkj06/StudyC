@@ -1,10 +1,10 @@
 /*
   filename - main.c
   version - 1.0
-  description - 기본 메인 함수
+  description - 기본 메인 함수, 사용자 정의 자료형 Structuer 학습
   --------------------------------------------------------------------------------
-  first created - 2020.02.01
-  writer - Hugo MG Sung.
+  first created - 2020.02.07
+  writer - Nam Kyung Jin
 */
 
 #include <stdio.h>
