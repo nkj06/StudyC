@@ -3,7 +3,7 @@
   version - 1.0
   description - 기본 메인 함수
   --------------------------------------------------------------------------------
-  first created - 2020.02.11
+  first created - 2020.02.12
   writer - Nam Kyung Jin
 */
 
