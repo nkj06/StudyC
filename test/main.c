@@ -227,7 +227,7 @@ card* card_SelSer(card* Head) // 검색
 			break;
 		}
 		else {
-			printf("등록되지 않은 책입니다.\n\n");
+			printf("등록되지 않은 명함입니다.\n\n");
 			return Head;
 		}
 		StpFront = StpRear;
@@ -263,7 +263,7 @@ card* card_update(card* Head) { // 수정
 			break;
 		}
 		else {
-			printf("등록되지 않은 책입니다.\n\n");
+			printf("등록되지 않은 명함입니다.\n\n");
 			return Head;
 		}
 
@@ -282,7 +282,7 @@ card* Modiname(card* StpRear)
 {
 	char Dstr[SIZE];
 	int icnt;
-	printf("책 이름 : ");
+	printf("한글 이름 : ");
 	scanf("%s", Dstr);
 
 	for (icnt = 0; 0 != Dstr[icnt]; ++icnt)
@@ -299,7 +299,7 @@ card* Modiphone(card* StpRear)
 	char Dstr[SIZE];
 	int icnt;
 
-	printf("저자 : ");
+	printf("폰번호 : ");
 	scanf("%s", Dstr);
 
 	for (icnt = 0; 0 != Dstr[icnt]; ++icnt)
