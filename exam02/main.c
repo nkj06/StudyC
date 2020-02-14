@@ -44,17 +44,16 @@ void edit_business_card()
 
 }
 
-void search_business_card(struct Info* info)
+void search_business_card()
+{
+}
+
+void show_all_cards(struct Info* info)
 {
 	printf("명함 번호 : %d\n", info->number);
 	printf("한글 이름 : %s\n", info->name);
 	printf("폰 번호 : %s\n", info->phone);
 	printf("이메일 : %s\n", info->e_mail);
-}
-
-void show_all_cards()
-{
-
 }
 
 int main()
@@ -87,7 +86,6 @@ int main()
 		}
 		else if (3 == iNum)	// 삭제
 		{
-
 			printf("-----------------------------\n");
 		}
 		else if (4 == iNum)	// 출력
@@ -97,6 +95,7 @@ int main()
 		}
 		else if (5 == iNum)	// 검색
 		{
+			search_business_card();
 			printf("-----------------------------\n");
 		}
 		if (6 == iNum) // 종료
